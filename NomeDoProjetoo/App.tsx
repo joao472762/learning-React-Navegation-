@@ -4,7 +4,14 @@ import { Routes } from './src/routes/routes';
 
 export default function App() {
   return (
-    <Routes/>
+    <>
+      <StatusBar
+      style='light'
+      backgroundColor='transparent'
+      translucent
+      />
+      <Routes/> 
+    </>
   );
 }
 
